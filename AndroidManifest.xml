@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="dev.hellpie.mcpe.addon.nineslotsbar"
+      android:versionCode="1"
+      android:versionName="1.0_9s-pub.alpha build 002 (for 0.11.0.b9) [hellpie@shamu]">
+	  
+    <uses-sdk android:minSdkVersion="16" />
+		
+	<uses-permission android:name="net.zhuoweizhang.mcpelauncher.ADDON" />
+		
+    <application android:label="9 InvSlothz - by @_HellPie"
+				 android:hasCode="false">
+				 
+		<meta-data android:name="net.zhuoweizhang.mcpelauncher.api.nativelibname"
+				   android:value="dev.hellpie.mcpe.addon.nineslotsbar"/>
+		<meta-data android:name="net.zhuoweizhang.mcpelauncher.api.targetmcpeversion"
+			       android:value="0.11.0"/>
+				 
+    </application>
+</manifest> 
